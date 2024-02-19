@@ -1,0 +1,6 @@
+version: "3"
+services:
+  minecraft_server:
+    image: minecraft_server
+    ports:
+      - "25565:25565"
