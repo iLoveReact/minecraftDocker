@@ -1,8 +1,6 @@
-FROM ubuntu
+FROM openjdk:17
 
 WORKDIR /minecraft_server
-
-RUN apt-get update && apt-get install -y openjdk-17-jdk
 
 RUN apt-get update && apt-get install -y wget 
     
